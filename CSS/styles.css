@@ -1,0 +1,22 @@
+h2{
+    font-weight: bold;
+    font-size: large;
+
+}
+ul{
+   list-style: none;
+}
+.navbar>li{
+    display:inline;
+
+}
+ul.navbar li{
+    min-width: 12rem;
+    text-align: center;
+}
+
+
+#homelogo{
+    width: 20%;
+    height: auto;
+}
