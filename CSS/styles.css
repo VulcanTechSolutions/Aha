@@ -1,3 +1,26 @@
+
+
+#black{
+    background-color: black;
+    height: 64px;
+
+}
+#homelogo{
+    height:90px;
+    position: relative;
+    left: 700px;
+
+}
+#red{
+    height: 130px;
+    background-color: red;
+}
+
+
+
+
+
+/*this is leftover from random shit idk what this does exactly*/
 h2{
     font-weight: bold;
     font-size: large;
@@ -13,10 +36,4 @@ ul{
 ul.navbar li{
     min-width: 12rem;
     text-align: center;
-}
-
-
-#homelogo{
-    width: 20%;
-    height: auto;
 }
