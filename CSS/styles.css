@@ -1,4 +1,8 @@
 
+a{
+    text-decoration: none;
+}
+
 
 #black{
     background-color: black;
@@ -12,7 +16,7 @@
 
 }
 #red{
-    height: 130px;
+    height: 175px;
     background-color: red;
 }
 
@@ -26,14 +30,34 @@ h2{
     font-size: large;
 
 }
+
+
 ul{
    list-style: none;
 }
 .navbar>li{
     display:inline;
-
 }
 ul.navbar li{
     min-width: 12rem;
     text-align: center;
+   
+}
+.navbar{
+    position: relative;
+    left: 260px;
+    bottom: 20px;
+
+}
+.navbar>li>a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+ 
+}
+#footer{
+    text-align: center;
+    position: relative;
+    margin-top: 450px;
+    font-size: small;
 }
