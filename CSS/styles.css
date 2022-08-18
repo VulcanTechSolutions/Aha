@@ -1,37 +1,36 @@
-
 a{
     text-decoration: none;
 }
-
-
+body{
+    z-index: -2;
+    background-color:rgb(190, 186, 186);
+}
+.bold{
+    font-weight: bold;
+}
 #black{
     background-color: black;
     height: 64px;
-
 }
 #homelogo{
     height:90px;
     position: relative;
     left: 700px;
-
 }
 #red{
     height: 175px;
     background-color: red;
 }
-
-
-
-
-
-/*this is leftover from random shit idk what this does exactly*/
+#topgradient{
+    height:135px;
+    position: relative;
+    bottom: 20px;
+    background: linear-gradient(red,rgb(190,186,186));
+}
 h2{
     font-weight: bold;
     font-size: large;
-
 }
-
-
 ul{
    list-style: none;
 }
@@ -40,24 +39,28 @@ ul{
 }
 ul.navbar li{
     min-width: 12rem;
-    text-align: center;
-   
+    text-align: center;  
 }
 .navbar{
     position: relative;
     left: 260px;
     bottom: 20px;
-
 }
 .navbar>li>a{
     text-decoration: none;
     margin: 20px;
-    color: white;
- 
+    color: black;
 }
 #footer{
     text-align: center;
     position: relative;
     margin-top: 450px;
     font-size: small;
+}
+/*we never covered this but this thing you're seeing here, ":hover" is a selector to select the styles of an element when the mouse hovers over it.*/
+#slash:hover{
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline solid black 1px;
 }
