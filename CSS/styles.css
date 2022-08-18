@@ -1,37 +1,23 @@
-
 a{
     text-decoration: none;
 }
-
-
 #black{
     background-color: black;
     height: 64px;
-
 }
 #homelogo{
     height:90px;
     position: relative;
     left: 700px;
-
 }
 #red{
     height: 175px;
     background-color: red;
 }
-
-
-
-
-
-/*this is leftover from random shit idk what this does exactly*/
 h2{
     font-weight: bold;
     font-size: large;
-
 }
-
-
 ul{
    list-style: none;
 }
@@ -40,20 +26,17 @@ ul{
 }
 ul.navbar li{
     min-width: 12rem;
-    text-align: center;
-   
+    text-align: center;  
 }
 .navbar{
     position: relative;
     left: 260px;
     bottom: 20px;
-
 }
 .navbar>li>a{
     text-decoration: none;
     margin: 20px;
     color: white;
- 
 }
 #footer{
     text-align: center;
