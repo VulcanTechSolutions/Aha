@@ -64,3 +64,10 @@ ul.navbar li{
 .footer a:hover{
     text-decoration: underline solid black 1px;
 }
+main{
+    position: relative;
+    left: 120px;
+}
+.titlecard-text{
+    color: rgba(2, 0, 0, 2)
+}
