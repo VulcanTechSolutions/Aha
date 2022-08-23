@@ -36,19 +36,19 @@
 <main>
     <p>Estimates given in this manner are subject to change based on availability of materials, information accuracy, or projected work.</p>
 
-<form action="">
+<form name="estimate" method="POST" data-netlify="true" action="/Requests/success.html">
 
 <div class="reqestimate">
 <label for="a1">Customer Name:</label>
-<input id="a1" type="text" maxlength="25" autofocus>
+<input id="a1" type="text" maxlength="25" autofocus required>
 </div>
 <div>
     <label for="a2">Customer Email Address:</label>
-    <input id="a2" type="email" maxlength="30">
+    <input id="a2" type="email" maxlength="30" required>
 </div>
 <div>
     <label for="a3">Device Type: </label>
-    <select>
+    <select required>
         <option value="">Select a device...</option>
         <option value="iPhone">iPhone</option>
         <option value="Apple iPad">Apple</option>
@@ -67,11 +67,14 @@
 </div>
 <div>
     <label for="a4">Device Model Number:</label>
-    <input id="a4" type="text">
+    <input id="a4" type="text" required>
 </div>
 <label for="a5">Description of Issue/Issues</label>
-<textarea id="a5"></textarea>
-
+<textarea id="a5" required></textarea>
+<div id="buttons">
+<button type="reset">Clear All Fields</button>
+<button type="submit">Submit</button>
+</div>
 </form>
 
 
