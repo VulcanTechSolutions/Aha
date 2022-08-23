@@ -8,7 +8,8 @@ body{
 button{
     border: 2px solid black;
     background-color:rgb(190, 186, 186);
-    padding: 1rem 1rem;
+    padding: 5px 5px;
+    margin: 10px 10px;
 }
 button:hover{
     box-shadow: 0 0 0 4px red;
